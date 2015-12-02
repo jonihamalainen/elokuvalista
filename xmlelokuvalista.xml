@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="elokuvatyyli.css"?>
+<elokuva_lista>
+  <elokuva>
+    <nimi>007 Spectre</nimi>
+    <ohjaaja>Sam Mendes</ohjaaja>
+    <julkaisuvuosi>2015</julkaisuvuosi>
+    <valmistusmaa>Britannia,Yhdysvallat</valmistusmaa>
+    <pääosa>Daniel Craig</pääosa>
+    <tuotto>749,6 miljoonaa dollaria</tuotto>
+    <ikäraja>K-12</ikäraja>
+    <arvosana>4/5</arvosana>
+  </elokuva>
+  <elokuva>
+    <nimi>Nälkäpeli – Matkijanärhi, osa 2</nimi>
+    <ohjaaja>Francis Lawrence</ohjaaja>
+    <julkaisuvuosi>2015</julkaisuvuosi>
+    <valmistusmaa>Yhdysvallat</valmistusmaa>
+    <pääosa>Jennifer Lawrence</pääosa>
+    <tuotto>442,2 miljoonaa dollaria</tuotto>
+    <ikäraja>PG-13</ikäraja>
+    <arvosana>3/5</arvosana>
+  </elokuva>
+  <elokuva>
+    <nimi>Hobitti – Viiden armeijan taistelu</nimi>
+    <ohjaaja>Peter Jackson</ohjaaja>
+    <julkaisuvuosi>2014</julkaisuvuosi>
+    <valmistusmaa>Uusi-Seelanti,Yhdysvallat</valmistusmaa>
+    <pääosa>Martin Freeman</pääosa>
+    <tuotto>954,9 miljoonaa dollaria</tuotto>
+    <ikäraja>PG-13</ikäraja>
+    <arvosana>4/5</arvosana>
+  </elokuva>
+  <elokuva>
+    <nimi>Annabelle</nimi>
+    <ohjaaja>John R. Leonetti</ohjaaja>
+    <julkaisuvuosi>2014</julkaisuvuosi>
+    <valmistusmaa>Yhdysvallat</valmistusmaa>
+    <pääosa>Annabelle Wallis,Ward Horton</pääosa>
+    <tuotto>252,6 miljoonaa dollariaa</tuotto>
+    <ikäraja>R</ikäraja>
+    <arvosana>2/5</arvosana>
+  </elokuva>
+  <elokuva>
+    <nimi>Kirottu</nimi>
+    <ohjaaja>James Wan</ohjaaja>
+    <julkaisuvuosi>2013</julkaisuvuosi>
+    <valmistusmaa>Yhdysvallat</valmistusmaa>
+    <pääosa>Vera Farmiga, Patrick Wilson</pääosa>
+    <tuotto>318 miljoonaa dollariaa</tuotto>
+    <ikäraja>R</ikäraja>
+    <arvosana>4/5</arvosana>
+  </elokuva>
+</elokuva_lista>
