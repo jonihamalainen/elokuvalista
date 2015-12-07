@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elokuvalista</title>
+  <link href="bs/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="elokuvat"></div><br>
+
+
+  <button type="button" onclick="edellinen()"  class="btn btn-success">Edellinen</button>
+  <button type="button" onclick="seuraava()"  class="btn btn-success">Seuraava</button>
+  <script>
+  var i = 0;
+  näytäLeffa(i);
+
+  function näytäLeffa(i) {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+          if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+              myFunction(xmlhttp, i);
+          }
+      };
+      xmlhttp.open("GET", "xmlelokuvalista.xml", true);
+      xmlhttp.send();
+  }
+
+  function myFunction(xml, i) {
+      var xmlDoc = xml.responseXML;
+      x = xmlDoc.getElementsByTagName("elokuva");
+      document.getElementById("elokuvat").innerHTML =
+      "Nimi: " +
+      x[i].getElementsByTagName("nimi")[0].childNodes[0].nodeValue +
+      "<br>Ohjaaja: " +
+      x[i].getElementsByTagName("ohjaaja")[0].childNodes[0].nodeValue +
+      "<br>Julkaisuvuosi: " +
+      x[i].getElementsByTagName("julkaisuvuosi")[0].childNodes[0].nodeValue +
+      "<br>Valmistusmaa: " +
+      x[i].getElementsByTagName("valmistusmaa")[0].childNodes[0].nodeValue +
+      "<br>Pääosa: " +
+      x[i].getElementsByTagName("pääosa")[0].childNodes[0].nodeValue +
+      "<br>Tuotto: " +
+      x[i].getElementsByTagName("tuotto")[0].childNodes[0].nodeValue +
+      "<br>Ikäraja: " +
+      x[i].getElementsByTagName("ikäraja")[0].childNodes[0].nodeValue +
+      "<br>Arvosana: " +
+      x[i].getElementsByTagName("arvosana")[0].childNodes[0].nodeValue;
+  }
+
+  function seuraava() {
+  if (i < x.length-1) {
+    i++;
+    näytäLeffa(i);
+    }
+  }
+
+  function edellinen() {
+  if (i > 0) {
+    i--;
+    näytäLeffa(i);
+    }
+  }
+  </script>
+</body>
+</html>
