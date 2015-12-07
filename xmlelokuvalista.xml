@@ -51,4 +51,24 @@
     <ikäraja>R</ikäraja>
     <arvosana>4/5</arvosana>
   </elokuva>
+  <elokuva>
+    <nimi>Lone Survivor</nimi>
+    <ohjaaja>Peter Berg</ohjaaja>
+    <julkaisuvuosi>2013</julkaisuvuosi>
+    <valmistusmaa>Yhdysvallat</valmistusmaa>
+    <pääosa>Mark Wahlberg</pääosa>
+    <tuotto>149.3 miljoonaa dollariaa</tuotto>
+    <ikäraja>R</ikäraja>
+    <arvosana>5/5</arvosana>
+  </elokuva>
+  <elokuva>
+    <nimi>Mad Max: Fury Road</nimi>
+    <ohjaaja>George Miller</ohjaaja>
+    <julkaisuvuosi>2015</julkaisuvuosi>
+    <valmistusmaa>Australia, Yhdysvallat</valmistusmaa>
+    <pääosa>Tom Hardy</pääosa>
+    <tuotto>375.8 miljoonaa dollariaa</tuotto>
+    <ikäraja>K-16</ikäraja>
+    <arvosana>5/5</arvosana>
+  </elokuva>
 </elokuva_lista>
